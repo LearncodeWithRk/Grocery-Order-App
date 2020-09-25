@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   android:background="@drawable/background"
+
+    tools:context=".MainActivity">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+
+        <Button
+            android:layout_gravity="center"
+            android:layout_marginTop="90dp"
+            android:id="@+id/Home"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:paddingBottom="5dp"
+            android:paddingTop="5dp"
+            android:text="Home"
+            android:background="@drawable/btn"
+            android:textColor="#FFF"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:typeface="serif" />
+
+        <Button
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:id="@+id/category"
+            android:layout_width="350dp"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:paddingBottom="5dp"
+            android:paddingTop="5dp"
+            android:text="category"
+            android:background="@drawable/btn"
+            android:textColor="#FFF"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:typeface="serif" />
+
+        <Button
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:id="@+id/login"
+            android:layout_width="350dp"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:paddingBottom="5dp"
+            android:paddingTop="5dp"
+            android:text="login or Sign"
+            android:background="@drawable/btn"
+            android:textColor="#FFF"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:typeface="serif" />
+
+        <Button
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:id="@+id/search_category"
+            android:layout_width="350dp"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:paddingBottom="5dp"
+            android:paddingTop="5dp"
+            android:text="search category"
+            android:background="@drawable/btn"
+            android:textColor="#FFF"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:typeface="serif" />
+        <Button
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:id="@+id/shop_showing"
+            android:layout_width="350dp"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:paddingBottom="5dp"
+            android:paddingTop="5dp"
+            android:text="shop showing"
+            android:background="@drawable/btn"
+            android:textColor="#FFF"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:typeface="serif" />
+
+
+    </LinearLayout>
+
+
+
+</ScrollView>
